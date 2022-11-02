@@ -1,0 +1,11 @@
+{
+  "name": "com.gg.tests",
+  "version": "1.0.0",
+  "displayName": "GG Tests",
+  "description": "Base package for running self-contained tests in the TestRunner scene.",
+  "unity": "2019.4",
+  "author": {
+    "name": "Michael Stephens",
+    "email": "mstephens.dev@gmail.com"
+  }
+} 
