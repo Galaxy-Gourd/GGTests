@@ -18,6 +18,8 @@ namespace GG.Tests
         [Header("Tests")]
         [SerializeField] private DataConfigTestsManifest _systemTests;
         [SerializeField] private DataConfigTestsManifest _projectTests;
+        [SerializeField] private DataConfigTest _defaultTest;
+        [SerializeField] private bool _autoTestDefault;
         
         [Header("References")]
         [SerializeField] private UITestSelection _uiSelector;
@@ -81,6 +83,12 @@ namespace GG.Tests
         private void OnEnable()
         {
             ConfigureRunnerForTestSelection();
+            
+            // Spawn into default test if needed
+            if (_autoTestDefault && _defaultTest)
+            {
+                OnRunTestManualSelected(_defaultTest);
+            }
         }
 
         #endregion INITIALIZATION
