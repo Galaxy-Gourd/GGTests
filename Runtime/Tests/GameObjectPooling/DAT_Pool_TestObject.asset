@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PoolObject: {fileID: 3151515808797408063, guid: f05ac594c82cd4cd0a340305ddd87fe8,
     type: 3}
-  PoolMinimumInstanceLimit: 0
-  PoolMaximumInstanceLimit: -1
+  PoolMinimumInstanceLimit: 5
+  PoolMaximumInstanceLimit: 15
   SpilloverAllowance: 0

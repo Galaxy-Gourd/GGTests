@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ea35ad584d7494390bd1caf53e5af96, type: 3}
   m_Name: DAT_Test_GameObjectPooling
   m_EditorClassIdentifier: 
-  TestName: Test Instance
-  HasAutoTest: 1
-  HasManualTest: 0
+  TestName: GameObject Pooling
+  HasAutoTest: 0
+  HasManualTest: 1
   HideRunnerCamera: 0
-  ControllerPrefab: {fileID: 6131910057514603728, guid: e2566fd0ead2e446f939612bf635d16d,
+  ControllerPrefab: {fileID: -8926284684960869809, guid: 548a552e35842422c8a97f9a409ef072,
     type: 3}
   Modules: []
   TimeDelayBeforeTestBegin: 0.1
