@@ -16,6 +16,7 @@ namespace GG.Tests
         [SerializeField] internal bool HasAutoTest;
         [SerializeField] internal bool HasManualTest;
         [SerializeField] internal bool HideRunnerCamera = true;
+        [SerializeField] internal bool ForceRunnerInputModule;
         
         [Header("References")]
         [SerializeField] internal TestController ControllerPrefab;

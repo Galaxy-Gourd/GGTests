@@ -196,7 +196,7 @@ namespace GG.Tests
             // We want to unregister so that the test being run has full control
             TickRouter.Unregister(this);
             _runnerCamera.enabled = !_currentTestData.HideRunnerCamera;
-            _runnerEventSystem.enabled = false;
+            _runnerEventSystem.enabled = _currentTestData.ForceRunnerInputModule;
             _uiSelector.gameObject.SetActive(false);
             _uiTestProgress.gameObject.SetActive(true);
             _uiTestProgress.ResetUI();
